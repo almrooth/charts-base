@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 d-none d-md-block bg-light sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/statistik" routerLinkActive="active">
+              <span data-feather="home"></span>
+              Statistik
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/statistik/chartjs" routerLinkActive="active">
+              <span data-feather="home"></span>
+              Chart.js
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+      <router-outlet></router-outlet>      
+    </main>
+
+  </div>
+</div>
